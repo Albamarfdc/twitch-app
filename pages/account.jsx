@@ -2,7 +2,7 @@ import React from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { FaGithub,FaGoogle } from "react-icons/fa";
 
-const account = () => {
+const Account = () => {
   const { data: session } = useSession();
   //console.log(session)
   if (session) {
@@ -45,4 +45,4 @@ const account = () => {
   );
 };
 
-export default account;
+export default Account;
