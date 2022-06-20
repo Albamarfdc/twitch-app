@@ -15,8 +15,7 @@ const LiveChannels = () => {
   return (
     <div id="live" className="p-2 md:p-8">
       <h2 className="text-xl font-bold px-2">
-        <span className="text-[#9147ff]">Live Channels</span> we think you'll
-        like
+        <span className="text-[#9147ff]">Live Channels</span>
       </h2>
       {/* Container */}
       <div className="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-4 py-2">
@@ -37,7 +36,7 @@ const LiveChannels = () => {
         <Live
           img={Live3}
           profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/26fac640-e78a-49f4-8ab2-8d12b92574c6-profile_image-50x50.png"
-          title="VALORANT WITH NIJI AND FRIENDS!..."
+          title="VALORANT WITH NIJI"
           user="baoo"
           game="Valorant"
         />
@@ -58,23 +57,23 @@ const LiveChannels = () => {
         <Live
           img={Live6}
           profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/b3c347ed-1a7a-40a2-8bee-8a7c4426eb33-profile_image-50x50.png"
-          title="Tripod Man Gains RP | Code: MFAM | @..."
+          title="Tripod Man Gains RP"
           user="NICKMERCS"
           game="Apex Legends"
         />
         <Live
           img={Live7}
           profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/25911b2f-6077-4e46-b66e-25f1655f09f6-profile_image-50x50.png"
-          title="JESUS LOVES YOU!!!"
+          title="I LOVES YOU"
           user="coletteleclair"
           game="Just Chatting"
         />
         <Live
           img={Live8}
           profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/b3fc1f16-0818-4121-8711-c31b9469bc21-profile_image-50x50.png"
-          title="Covert_Muffin teaching Star Wars..."
+          title="Covert_Muffin"
           user="JamesDoneQuick"
-          game="Star Wars: Jedi Knight II - Jedi Outcast"
+          game="Star Wars"
         />
         <Live
           img={Live9}
@@ -86,7 +85,7 @@ const LiveChannels = () => {
         <Live
           img={Live10}
           profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/958d17a9-0c82-4210-8376-7e3c00a006f5-profile_image-50x50.png"
-          title="GRILLIN / CHILLEN! Steak / Burgers..."
+          title="GRILLIN / CHILLEN!"
           user="KennyGoodloe"
           game="Just Chatting"
         />
